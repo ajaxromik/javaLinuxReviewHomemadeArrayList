@@ -4,11 +4,18 @@ Select from the following menu:
 	2. Remove item from the list
 	3. Get item from the list
 	4. Clear the list
-	5. Print size and content of the list
-	6. Reverse the list
+	5. Display size and content of the list
+	6. Delete the smallest and largest item in the list
+	7. Reverse the list
 
 Make your menu selection now: 5
 	List is empty.
+
+Make your menu selection now: 6
+List empty, nothing to delete!
+
+Make your menu selection now: 7
+List is empty.. nothing to reverse!
 
 Make your menu selection now: 1
 You are now inserting an item into the list.
@@ -18,6 +25,10 @@ Item Data inserted into position 0 in the list.
 
 Make your menu selection now: 5
 	List of size 1 has the following items: Data
+
+Make your menu selection now: 7
+List has been reversed.
+ Here is the content: Data
 
 Make your menu selection now: 1
 You are now inserting an item into the list.
@@ -31,7 +42,7 @@ Make your menu selection now: 5
 Make your menu selection now: 1
 You are now inserting an item into the list.
 	Enter item: Jean-Luc
-	Enter position to insert item in: 4
+	Enter position to insert item in: 5
 Position specified is out of range!
 
 Make your menu selection now: 5
@@ -46,8 +57,8 @@ Item Jean-Luc inserted into position 2 in the list.
 Make your menu selection now: 1
 You are now inserting an item into the list.
 	Enter item: Geordi
-	Enter position to insert item in: 1
-Item Geordi inserted into position 1 in the list.
+	Enter position to insert item in: 2
+Item Geordi inserted into position 2 in the list.
 
 Make your menu selection now: 1
 You are now inserting an item into the list.
@@ -56,60 +67,93 @@ You are now inserting an item into the list.
 Item Worf inserted into position 3 in the list.
 
 Make your menu selection now: 5
-	List of size 5 has the following items: Beverly Geordi Data Worf Jean-Luc
+	List of size 5 has the following items: Beverly Data Geordi Worf Jean-Luc
+
+Make your menu selection now: 7
+List has been reversed.
+ Here is the content: Jean-Luc Worf Geordi Data Beverly
+
+Make your menu selection now: 7
+List has been reversed.
+ Here is the content: Beverly Data Geordi Worf Jean-Luc
 
 Make your menu selection now: 6
-List reversed
+Smallest item Beverly and largest item Worf deleted.
 
 Make your menu selection now: 5
-	List of size 5 has the following items: Jean-Luc Worf Data Geordi Beverly
+	List of size 3 has the following items: Data Geordi Jean-Luc
+
+Make your menu selection now: 7
+List has been reversed.
+ Here is the content: Jean-Luc Geordi Data
+
+Make your menu selection now: 7
+List has been reversed.
+ Here is the content: Data Geordi Jean-Luc
 
 Make your menu selection now: 2
-	Enter position to remove item from: 5
+	Enter position to remove item from: 9
 Position specified is out of range!
 
 Make your menu selection now: 2
-	Enter position to remove item from: 3
-Item Geordi removed from position 3 in the list.
+	Enter position to remove item from: 2
+Item Jean-Luc removed from position 2 in the list.
 
 Make your menu selection now: 5
-	List of size 4 has the following items: Jean-Luc Worf Data Beverly
+	List of size 2 has the following items: Data Geordi
 
 Make your menu selection now: 2
 	Enter position to remove item from: 0
-Item Jean-Luc removed from position 0 in the list.
+Item Data removed from position 0 in the list.
 
 Make your menu selection now: 1
 You are now inserting an item into the list.
 	Enter item: Will
-	Enter position to insert item in: 1
-Item Will inserted into position 1 in the list.
+	Enter position to insert item in: 0
+Item Will inserted into position 0 in the list.
 
 Make your menu selection now: 5
-	List of size 4 has the following items: Worf Will Data Beverly
+	List of size 2 has the following items: Will Geordi
 
 Make your menu selection now: 3
-	Enter position to retrieve item from: 2
-Item Data retrieved from position 2 in the list.
+	Enter position to retrieve item from: 1
+Item Geordi retrieved from position 1 in the list.
 
 Make your menu selection now: 3
 	Enter position to retrieve item from: 0
-Item Worf retrieved from position 0 in the list.
+Item Will retrieved from position 0 in the list.
 
 Make your menu selection now: 3
-	Enter position to retrieve item from: 7
+	Enter position to retrieve item from: 8
 Position specified is out of range!
 
 Make your menu selection now: 5
-	List of size 4 has the following items: Worf Will Data Beverly
+	List of size 2 has the following items: Will Geordi
 
 Make your menu selection now: 6
-List reversed
+Smallest item Geordi and largest item Will deleted.
 
 Make your menu selection now: 5
-	List of size 4 has the following items: Beverly Data Will Worf
+	List is empty.
 
-Make your menu selection now: 4
+Make your menu selection now: 7
+List is empty.. nothing to reverse!
+
+Make your menu selection now: 1
+You are now inserting an item into the list.
+	Enter item: Velcro
+	Enter position to insert item in: 0
+Item Velcro inserted into position 0 in the list.
+
+Make your menu selection now: 5
+	List of size 1 has the following items: Velcro
+
+Make your menu selection now: 7
+List has been reversed.
+ Here is the content: Velcro
+
+Make your menu selection now: 6
+Item Velcro deleted.
 
 Make your menu selection now: 5
 	List is empty.
